@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+box-sizing: border-box;  
+}
+
+body{
+margin: 0;
+padding: 0; 
+padding-top: 30px;  
+}
+
+.menu{
+position: fixed;
+width: 100%;  
+background: #8ac8d0;
+height: 160px;
+top: 0;
+z-index: 10;
+padding-top: 15px;
+text-align: center;  
+}
+
+.brand{
+position: relative;
+top: 10px;  
+}
+
+.brand h3{
+margin: 0;
+color: #444;
+font-family: Segoe UI;
+text-transform: uppercase;
+font-weight: 900;  
+}
+
+.thin{
+font-weight: 300;  
+}
+
+.nav{
+float: right;
+position: relative;
+bottom: 22.5px;  
+}
+
+.link{
+display: inline-block !important;  
+}
+
+.link a{
+color: #444;
+font-size: 1.5rem;
+letter-spacing:0.3vw; 
+text-transform: uppercase;
+font-family: Segoe UI;  
+font-weight: 400;  
+}
+
+.intro{
+min-height: 50vh;  
+background:#f2f4f6;
+position: relative;  
+}
+
+.intro-text h1{
+position: relative;
+top: 30px;  
+padding:60px;  
+font-family: monospace;
+    font-weight: bold;
+    color: darkcyan;
+    text-align:center;
+}
+
+.intro-text h3{
+color: #444;  
+font-family: Segoe UI;
+font-weight: 300;
+line-height: 1.5;  
+}
+
+.picture{
+min-height: 50vh;
+width: 100%;  
+background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),  url("https://pixabay.com/static/uploads/photo/2016/02/19/11/53/plant-1210032_960_720.jpg");
+background-repeat:no-repeat;  
+background-size:cover;
+margin-top: -10px;  
+}
+
+.projetos{
+background: #8fc0d7;
+min-height: 60vh;
+padding: 80px;
+font-family: Segoe UI;
+    margin-top: 5%;
+}
+
+.picture h1{
+color: #fff;
+margin: 0;
+position: relative;
+padding: 20px;
+text-align: center;
+top: 20vh;
+font-family: Segoe UI;  
+font-weight: 300;  
+}
+
+.projetos h1{
+color: #fff;
+font-weight: 300;  
+}
+
+.projetos i{
+margin: 40px;  
+color: #fff;
+font-size: 10rem;  
+}
+
+.projetos i a{
+font-size: 3rem;
+font-family: Segoe UI;
+color: #fff;  
+}
